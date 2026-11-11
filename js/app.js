@@ -19,11 +19,11 @@ botonSaludo.addEventListener("click", () => {
 
 // PASO 3. Arreglo de objetos: cada objeto representa un tema.
 const temas = [
+  // RETO 2: tema de validación primero
+  { titulo: "Validación de formularios", detalle: "Revisar los datos antes de guardarlos." },
   { titulo: "Variables y funciones", detalle: "Guardar valores y reutilizar operaciones." },
   { titulo: "Arreglos y objetos", detalle: "Organizar información estructurada." },
-  { titulo: "Eventos y DOM", detalle: "Responder al usuario y modificar la página." },
-  // RETO 2: agregar un cuarto tema
-  { titulo: "Validación de formularios", detalle: "Revisar los datos antes de guardarlos." }
+  { titulo: "Eventos y DOM", detalle: "Responder al usuario y modificar la página." }
 ];
 
 const contenedorTemas = document.querySelector("#lista-temas");
