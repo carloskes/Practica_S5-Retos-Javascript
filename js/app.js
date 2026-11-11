@@ -91,7 +91,7 @@ function validarRegistro(nombre, correo, rol) {
   mostrarError("correo", "");
   mostrarError("rol", "");
 
-  // RETO 4: el nombre debe tener minimo 5 caracteres
+  // RETO 4: el nombre debe tener mínimo 5 caracteres
   if (nombre.length < 5) {
     mostrarError("nombre", "Ingresa al menos 5 caracteres.");
     esValido = false;
