@@ -59,7 +59,8 @@ formularioTema.addEventListener("submit", (evento) => {
     mensajeTema.textContent = "Escribe un tema de al menos 3 caracteres.";
     return;
   }
-  temas.push({ titulo, detalle: "Tema agregado durante la práctica." });
+  // agregar el tema nuevo al inicio de la lista
+  temas.unshift({ titulo, detalle: "Tema agregado durante la práctica." });
   mostrarTemas();
   formularioTema.reset();
   mensajeTema.textContent = "Tema agregado correctamente.";
